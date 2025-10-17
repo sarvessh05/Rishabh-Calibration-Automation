@@ -28,40 +28,24 @@ Key objectives achieved:
 - **Modules**: socket, threading, time, os, re, struct  
 ---
 ## 📂 Project Structure
+```
 Rishabh-Calibration-Automation/
 │
-├── calibration.py             # Core sequential calibration runner  
-├── 3P3W.py / 3P4W.py          # Grouped calibration for 3-phase meters  
-├── 4WS1.py / 4WS2.py          # Parameter reading for 4-wire meters  
-├── key_test.py                # Automated on-meter key test procedures  
-├── postcal.py                 # Post-calibration programming routines  
-├── readparameters.py          # Parameter reading & key test integration  
-├── voltage_impulse_error.py   # Error calculation and analysis module  
-├── transport.py               # Socket communication abstraction  
-├── ui_helpers.py              # Tkinter & console prompt utilities  
-├── config.py                  # Central configuration and initialization  
-├── steps.py                   # Step definitions for calibration process  
-├── registers.py               # Register mappings and command references  
-├── logs/                      # Generated calibration logs and reports  
-└── README.md                  # Project documentation  
----
-## ⚙️ Setup & Usage
-1. **Clone the repository**  
-   git clone https://github.com/sarvessh05/Rishabh-Calibration-Automation.git  
-   cd Rishabh-Calibration-Automation  
-2. **Install required dependencies**  
-   pip install -r requirements.txt  
-3. **Configure connection parameters**  
-   Edit `config.py` to set:  
-   - Meter count  
-   - IP address ranges  
-   - Socket configuration  
-   - Simulation mode (True/False)  
-4. **Run calibration**  
-   python calibration.py  
-5. **View logs and results**  
-   All calibration logs and results are stored in `logs/` and JSON files for auditing.  
----
+├── calibration.py             → Core sequential calibration runner  
+├── 3P3W.py / 3P4W.py          → Grouped calibration for 3-phase meters  
+├── 4WS1.py / 4WS2.py          → Parameter reading for 4-wire meters  
+├── key_test.py                → Automated on-meter key test procedures  
+├── postcal.py                 → Post-calibration programming routines  
+├── readparameters.py          → Parameter reading & key test integration  
+├── voltage_impulse_error.py   → Error calculation and analysis module  
+├── transport.py               → Socket communication abstraction  
+├── ui_helpers.py              → Tkinter & console prompt utilities  
+├── config.py                  → Central configuration and initialization  
+├── steps.py                   → Step definitions for calibration process  
+├── registers.py               → Register mappings and command references  
+├── logs/                      → Generated calibration logs and reports  
+└── README.md                  → Project documentation    
+```
 ## 🧪 Simulation Mode
 When hardware isn’t connected, enabling simulation mode allows developers to:  
 - Emulate meter responses  
@@ -82,3 +66,4 @@ This project is intended for **internal and educational use** under Rishabh Inst
 Made with 💡 and precision by **Sarvesh Ghotekar**  
 *Intern, Rishabh Instruments Pvt. Ltd.*  
 🔗 [LinkedIn](https://www.linkedin.com/in/sarveshghotekar/) • [Portfolio](https://sarvessh05.github.io/Portfolio/)
+
